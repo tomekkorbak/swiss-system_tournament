@@ -2,6 +2,7 @@
 # 
 # tournament.py -- implementation of a Swiss-system tournament
 #
+# final project in "Intro to relational databases" @ udacity
 
 import psycopg2
 
