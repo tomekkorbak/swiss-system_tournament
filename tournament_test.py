@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Test cases for tournament.py, developer by udacity
+# Test cases for tournament.py, developed by udacity
 
 from tournament import *
 
