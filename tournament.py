@@ -69,8 +69,8 @@ def playerStandings():
     c = DB.cursor()
     c.execute("select player_id, player_name, wins, matches from players order by wins desc;")
     standings = [(id, name, wins, matches) for (id, name, wins, matches) in c.fetchall()]
-    return standings
     DB.close()
+    return standings
 
 
 def reportMatch(winner, loser):
